@@ -58,12 +58,60 @@ p {
     font-size: 16px;
 }
 
-.lambeau{
+footer ul li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.55vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+footer h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: rgb(102, 182, 112);
+    background-size: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-break: break-all;
+}
+
+.lambeau {
     padding: 80px 35px;
     background-image: url("../images/lambeau.jpg");
     background-size: cover;
 }
 
-.subtitle{
-; 
+.subtitle {
+    text-align: right;
+    bottom: 8px;
+    right: 16px;
+    margin: 0;
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(102, 182, 112);
+    background-size: cover;
+}
+
+.container {
+    margin: 1em;
+    display: flex;
+}
+
+section {
+    display: flex; 
+}
+
+
+section div img {
+    max-height: 200px;
 }
