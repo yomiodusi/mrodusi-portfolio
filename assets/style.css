@@ -112,8 +112,9 @@ header nav ul li a:hover {
 
 .container {
     display: flex;
-    justify-content: a
-    padding: 30px;
+    justify-content: space-evenly
+    flex-direction: row;
+    padding: 20px;
     max-width: 100%;
 }
 
@@ -122,23 +123,35 @@ header nav ul li a:hover {
     justify-content: space-between;
     padding: 30px;
     flex-flow: wrap;
-    width: 70%;
+    width: 100%;
+    
+ 
+}
+.fourprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%
+    
 }
 
 #project-surf {
     background-image: url(../images/waterimage.jpg);
-    width: 150%;
+    width: 100%;
     height: 500px;
     background-repeat: no-repeat;
-    padding: 30px;
     display: flex;
+    margin-bottom: 2%;
+
 }
 
 #project-calculator {
     background-image: url(../images/calculator.jpg);
     width: 50%;
     height: 150px;
+    margin-bottom: 1em;
     display: flex;
+
 }
 
 #project-ledwall {
@@ -165,7 +178,6 @@ header nav ul li a:hover {
 .project-box{
     background-size: cover;
     background-position: center;
-    display: flex;
     justify-content: flex-end;
     align-content: flex-end
 }
