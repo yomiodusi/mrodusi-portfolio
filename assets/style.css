@@ -99,23 +99,17 @@ header nav ul li a:hover {
 }
 
 .me {
-    background-color: blanchedalmond;
     display: flex;
-
+    padding-top: 30px;
 }
 
 .me p {
-
     font-size: 20px;
     padding: 0 30px;
     width: 100%; 
+   ;
 
- 
 }
-
-.myb
-
-
 
 
 .other-projects {
