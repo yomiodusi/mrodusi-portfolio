@@ -139,3 +139,6 @@ footer h1 {
    
 }
 
+fig div img {
+    max-height: fit-content;
+}
