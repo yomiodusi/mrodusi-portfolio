@@ -107,8 +107,35 @@ header nav ul li a:hover {
     font-size: 20px;
     padding: 0 30px;
     width: 100%; 
-   ;
 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: blanchedalmond;
+    width: 70%;
+}
+
+.project {
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid rgb(102, 182, 112);
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end
+}
+
+.project :hover {
+    background-color: rgb(140, 228, 0);
 }
 
 
