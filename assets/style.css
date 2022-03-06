@@ -112,23 +112,59 @@ header nav ul li a:hover {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: a
     padding: 30px;
+    max-width: 100%;
 }
 
 .projects-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 30px;
     flex-flow: wrap;
-    background-color: blanchedalmond;
     width: 70%;
 }
 
-.project {
-    background-color: aqua;
+#project-surf {
+    background-image: url(../images/waterimage.jpg);
+    width: 150%;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 30px;
+    display: flex;
+}
+
+#project-calculator {
+    background-image: url(../images/calculator.jpg);
+    width: 50%;
+    height: 150px;
+    display: flex;
+}
+
+#project-ledwall {
+    background-image: url(../images/ledwall.jpg);
+    width: 50%;
+    height: 150px;
+    display: flex;
+}
+
+#project-puzzle {
+    background-image: url(../images/clearsky.jpg);
+    width: 50%;
+    height: 150px;
+    display: flex;
+}
+
+#project-runbuddy {
+    background-image: url(../images/runbuddy.jpg);
+    width: 50%;
+    height: 150px;
+    display: flex;
+}
+
+.project-box{
     background-size: cover;
     background-position: center;
-    border: 3px solid rgb(102, 182, 112);
     display: flex;
     justify-content: flex-end;
     align-content: flex-end
@@ -137,6 +173,7 @@ header nav ul li a:hover {
 .project :hover {
     background-color: rgb(140, 228, 0);
 }
+
 
 
 .other-projects {
