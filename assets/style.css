@@ -93,9 +93,13 @@ footer h1 {
 }
 
 .lambeau {
-    padding: 80px 35px;
     background-image: url("../images/lambeau.jpg");
+    height: 200px;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .subtitle {
@@ -111,65 +115,27 @@ footer h1 {
 }
 
 .container {
-    margin: 1em;
     display: flex;
-}
 
-div h1 {
-    padding-bottom: 40px;
-    flex-wrap: wrap;
 }
 
 .about-me {
-    position: relative;
-    left: 100px;
-    padding: auto;
-    font-size: 45px;
-}
-.bio {
-    font-size: 20px;
-    border-left: 3px solid;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    position: relative;
-    left: 50px;
-    text-align: justify;
-    margin: 0 auto 35px auto;
-    width: 70%;
-    flex-wrap: wrap;
+    min-height: 100px;
+    justify-content: left;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 200px;
-    list-style-type: none;
+.bio {
+    justify-content: right;
+}
+.other-projects {
+    border: 3px solid rgb(102, 182, 112);
+    width: 25%;
+    padding: 30px ;
 }
 
 .surf {
-    background-image: url(../images/waterimage.jpg);
-    padding: 200px 100px;
-
+    border: 3px solid rgb(102, 182, 112);
+    
+   
 }
 
-.ledwall {
-    background-image: url(../images/ledwall.jpg);
-    padding: 40px 20px;
-    background-repeat: no-repeat;
-}
-
-.calculator {
-    background-image: url(../images/calculator.jpg);
-    padding: 40px 20px;
-}
-
-.puzzle {
-    background-image: url(../images/clearsky.jpg);
-    padding: 40px 20px;
-}
-
-.runbuddy {
-    background-image: url(../images/runbuddy.jpg);
-    padding: 40px 20px;
-}
