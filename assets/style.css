@@ -6,6 +6,7 @@
 
 body {
     background-color: #929e85;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header{
@@ -14,7 +15,6 @@ header{
     flex-wrap: wrap;
     padding: 30px;
     background-color: rgb(6, 48, 14);
-    color: rgb(13, 55, 104);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -41,55 +41,18 @@ header{
     list-style: none;
 }
 
-
-a {
-    color: rgb(102, 182, 112);
-    text-decoration: none;
-}
-
 header nav ul li a {
     border-bottom: 3px solid rgb(102, 182, 112);
     padding-bottom: 5px;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    color: rgb(102, 182, 112);
+    text-decoration: none;
 }
 
 header nav ul li a:hover {
     background-color: rgb(140, 228, 0);
-}
-
-p {
-    font-size: 16px;
-}
-
-footer ul li a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.55vw;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-    position: fixed;
-    bottom: ;
-}
-
-footer ul li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-footer h1 {
-    display: inline-block;
-    font-size: 48px;
-    background-color: rgb(102, 182, 112);
-    background-size: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    word-break: break-all;
 }
 
 .lambeau {
@@ -102,16 +65,25 @@ footer h1 {
     justify-content: space-around;
 }
 
-.subtitle {
+.lambeau img {
+    height: 150px;
+    mix-blend-mode: luminosity;
+}
+
+.lambeau .subtitle {
     text-align: right;
-    bottom: 8px;
-    right: 16px;
-    margin: 0;
+    display: flex;
     font-size: 2vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     background-color: rgb(102, 182, 112);
-    background-size: cover;
+    padding: 8px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+
+  
+    
 }
 
 .container {
@@ -141,4 +113,32 @@ footer h1 {
 
 fig div img {
     max-height: fit-content;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+footer ul li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.55vw;
+}
+
+
+
+footer ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+footer h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: rgb(102, 182, 112);
+    background-size: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-break: break-all;
 }
