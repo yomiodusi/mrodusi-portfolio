@@ -81,24 +81,43 @@ header nav ul li a:hover {
     position: relative;
     left: 150px;
     top: 50px;
-
-  
-    
 }
 
-.container {
+.heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    min-height: 100%;
+    padding-right: 1.5%;
+    min-width: 30%;
+    max-width: 30%;
+    border-right: 5px solid rgb(102, 182, 112)
+}
+
+.heading h1 {
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.me {
+    background-color: blanchedalmond;
     display: flex;
 
 }
 
-.about-me {
-    min-height: 100px;
-    justify-content: left;
+.me p {
+
+    font-size: 20px;
+    padding: 0 30px;
+    width: 100%; 
+
+ 
 }
 
-.bio {
-    justify-content: right;
-}
+.myb
+
+
+
+
 .other-projects {
     border: 3px solid rgb(102, 182, 112);
     width: 25%;
