@@ -63,33 +63,6 @@ p {
     font-size: 16px;
 }
 
-footer ul li a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.55vw;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-}
-
-footer ul li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-footer h1 {
-    display: inline-block;
-    font-size: 48px;
-    background-color: rgb(102, 182, 112);
-    background-size: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    word-break: break-all;
-}
-
 .lambeau {
     padding: 80px 35px;
     background-image: url("../images/lambeau.jpg");
@@ -135,4 +108,66 @@ div h1 {
     margin: 0 auto 35px auto;
     width: 70%;
     flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    list-style-type: none;
+}
+
+.surf {
+    background-image: url(../images/waterimage.jpg);
+    padding: 200px 100px;
+
+}
+
+.ledwall {
+    background-image: url(../images/ledwall.jpg);
+    padding: 40px 20px;
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    background-image: url(../images/calculator.jpg);
+    padding: 40px 20px;
+}
+
+.puzzle {
+    background-image: url(../images/clearsky.jpg);
+    padding: 40px 20px;
+}
+
+.runbuddy {
+    background-image: url(../images/runbuddy.jpg);
+    padding: 40px 20px;
+}
+
+footer ul li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.55vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+footer h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: rgb(102, 182, 112);
+    background-size: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-break: break-all;
 }
