@@ -9,5 +9,5 @@ A Portfolio that showcases my work in this module. This will be stepping stone f
 * CSS
 
 ## Website
-https://yomiodusi.github.io/run-buddy/
+https://yomiodusi.github.io/mrodusi-portfolio/
 
