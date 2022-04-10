@@ -136,12 +136,13 @@ header nav ul li a:hover {
 }
 
 #project-surf {
-    background-image: url(../images/waterimage.jpg);
+    background-image: url(../images/project1screenshot.JPG);
     width: 100%;
-    height: 500px;
+    height: 150px;
     background-repeat: no-repeat;
     display: flex;
     margin-bottom: 2%;
+    object-fit: contain;
 }
 
 #project-calculator {
